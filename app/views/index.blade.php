@@ -35,6 +35,8 @@
 
  <link href="{{ asset('css/tiis.css') }}" rel="stylesheet">
 
+ <link href="{{ asset('iconmoon/Material-Design-Icons.eot') }}" rel="stylesheet">
+
  <!--[if lt IE 9]>
 
        <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
@@ -200,7 +202,7 @@
  <div class="container">
  <div class="row">
  <div class="col-md-12">
-    <p>All Rights Reserved 2016 © MaterialMag, Designed & Developed by <a href="http://crunchPress.com" target="_blank">CrunchPress.com</a></p>
+    <p>All Rights Reserved 2016 © MOH </p>
  </div>
  </div>
  </div>
@@ -220,6 +222,10 @@
  <script src="{{ asset('js/custom.js') }}"></script>
  <script src="{{ asset('js/owl.carousel.min.js') }}"></script>
 
+ <script>
+
+ </script>
+
  <script type="text/javascript">
  /* <![CDATA[ */
  (function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
@@ -228,6 +234,16 @@
 
      <script>
      $(function () {
+
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+
+        $('.datepicker').pickadate({
+             selectMonths: true, // Creates a dropdown to control month
+             selectYears: 15 // Creates a dropdown of 15 years to control year
+           });
+
          // Create the chart
          $('#container').highcharts({
              chart: {
