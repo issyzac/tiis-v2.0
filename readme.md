@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
@@ -24,3 +25,6 @@ Documentation for the entire framework can be found on the [Laravel website](htt
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
 # tiis-v2.0
+=======
+Tanzania Immunization Information System
+>>>>>>> a2ab1d89ef45839d92a9491acf5e519634627e9f
