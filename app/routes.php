@@ -36,3 +36,13 @@ Route::get('child/duplicates', function()
     return View::make('Child.duplicates');
 });
 
+Route::get('immunization/monthlyplan', function()
+{
+    return View::make('immunization.monthlyplan');
+});
+
+Route::get('immunization/vaccinationregister', function()
+{
+    return View::make('immunization.vaccinationregister');
+});
+

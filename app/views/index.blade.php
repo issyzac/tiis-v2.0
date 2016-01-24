@@ -37,13 +37,16 @@
 
  <link href="{{ asset('iconmoon/Material-Design-Icons.eot') }}" rel="stylesheet">
 
+ <link rel="stylesheet" href="{{ asset('css/abn_tree.css') }}" type="text/css" />
+
  <!--[if lt IE 9]>
 
        <!--<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
 
        <!--<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
 
- <![endif]-->
+ <!-- <![endif]-->
+ 
  </head>
  <body>
 
@@ -108,8 +111,8 @@
 
  <li> <a href="">Immunization</a>
       <ul class="drop-down one-column hover-fade">
-           <li> <a href="#">Monthly Plan</a> </li>
-           <li> <a href="#">Vaccination Register</a> </li>
+           <li> <a href="{{ url('immunization/monthlyplan') }}">Monthly Plan</a> </li>
+           <li> <a href="{{ url('immunization/vaccinationregister') }}">Vaccination Register</a> </li>
            <li> <a href="#">Population</a> </li>
        </ul>
   </li>
