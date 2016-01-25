@@ -82,148 +82,133 @@
                             </div>
                         </div>
 
-                        <div class="col s12" style="height: 50px"></div>
-                        <div>
-
-                            <table class="bordered">
-                                <thead>
-                                  <tr>
-                                      <th data-field="a">Antigen</th>
-                                      <th data-field="b">Week 0</th>
-                                      <th data-field="c">Week 6</th>
-                                      <th data-field="d">Week 10</th>
-                                      <th data-field="e">Week 14</th>
-                                      <th data-field="f">9 Months</th>
-                                      <th data-field="g">18 Months</th>
-                                  </tr>
-                                </thead>
-
-                                    <tbody>
-                                      <tr>
-                                        <td>BCG</td>
-                                        <td><a href="{{ url('imm_details') }}">01-12-15</a></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>OPV</td>
-                                        <td><a href="{{ url('imm_details') }}">01-12-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">23-12-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">26-12-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">03-01-16</a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td></td>
-                                      </tr>
-                                      
-                                      <tr>
-                                        <td>DTP</td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">05-05-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>PCV</td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">05-05-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>Rota</td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                      </tr>
-
-                                      <tr>
-                                        <td>MR</td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                        <td><a href="{{ url('imm_details') }}"></a></td>
-                                      </tr>
-
-                                    </tbody>
-                            </table>
-
-                        </div>
                     </div>
                 </div>
+
+
+                <div class="card-content">
+                 <small class="card-title">Immunization Information</small>
+                    <table class="bordered">
+                        <thead>
+                          <tr>
+                              <th data-field="a">Antigen</th>
+                              <th data-field="b">Week 0</th>
+                              <th data-field="c">Week 6</th>
+                              <th data-field="d">Week 10</th>
+                              <th data-field="e">Week 14</th>
+                              <th data-field="f">9 Months</th>
+                              <th data-field="g">18 Months</th>
+                          </tr>
+                        </thead>
+
+                            <tbody>
+                              <tr>
+                                <td>BCG</td>
+                                <td><a href="{{ url('imm_details') }}">01-12-15</a></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                              </tr>
+
+                              <tr>
+                                <td>OPV</td>
+                                <td><a href="{{ url('imm_details') }}">01-12-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">23-12-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">26-12-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">03-01-16</a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td></td>
+                              </tr>
+                              
+                              <tr>
+                                <td>DTP</td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">05-05-15</a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                              </tr>
+
+                              <tr>
+                                <td>PCV</td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">05-05-15</a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                              </tr>
+
+                              <tr>
+                                <td>Rota</td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}">10-03-15</a></td>
+                                <td><a href="{{ url('imm_details') }}">07-04-15</a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                              </tr>
+
+                              <tr>
+                                <td>MR</td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                                <td><a href="{{ url('imm_details') }}"></a></td>
+                              </tr>
+
+                            </tbody>
+                    </table>
+                </div>
+
             </div>
         </div>
 
-
         <div id="sectionB" class="">
             <div class="card">
-                <div class="card-heading">
-                    <small><b> Child Weight </b></small>
-                </div>
-                <div class="card-body">
+                <div class="card-content">
+                <small class="card-title"> Child Weight </small>
                     <div class="row row-sm">
-                        <div class="col-sm-3">
-                            <div class="md-form-group md-input-has-value md-block flex-gt-sm md-input-has-value">
-                                <input class="md-input" ng-model="user.lastName" value="Abigael Masam" required disabled>
-                                <label>Child</label>
-                            </div>
+
+                        <div class="input-field col s3" >
+                            <input type="text" value="Abigael" id="name" disabled="disabled">
+                            <label for="name"> Name </label>
                         </div>
 
-                        <div class="col-sm-3">
-                            <div class="md-form-group md-input-has-value md-block flex-gt-sm md-input-has-value" >
-                                <input class="md-input" ng-model="user.lastName" value="30-Dec-2015" required disabled>
-                                <label>Birthdate</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="md-form-group md-input-has-value md-block flex-gt-sm md-input-has-value">
-                                <input class="md-input" ng-model="user.lastName" value="12-Jan-2016" required disabled>
-                                <label>Date</label>
-                            </div>
-                        </div>
-                        <div class="col-sm-3">
-                            <div class="md-form-group md-input-has-value md-block flex-gt-sm">
-                                <input class="md-input" ng-model="user.lastName" value="" required>
-                                <label>Weight</label>
-                            </div>
+                        <div class="input-field col s3" >
+                            <input type="text" value="30-Dec-2015" id="dob" disabled="disabled">
+                            <label for="dob">Birthdate</label>    
                         </div>
 
-                        <div class="col-sm-3 pull-right">
-                            <label></label>
-                            <br>
-                            <div class="m-b pull-right">
-                                <button md-ink-ripple class="md-btn md-raised m-b btn-fw blue">Save</button>
-                            </div>
+                        <div class="input-field col s3">
+                            <input type="text" value="25-Jan-2016" id="dt" disabled="disabled">
+                            <label for="dt">Date</label>
                         </div>
 
-                    </div>
-                </div>
+                        <div class="input-field col s3">
+                            <input type="text" id="weight">
+                            <label for="weight">Weight</label>
+                        </div>
+
+                        <div class="col s3 pull-right">
+                             <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Save
+                             </button>
+                        </div>
             </div>
         </div>
 
         <div id="sectionC" class="">
-            <div class="card">
-                <div class="card-heading">
-                    <small><b>Child AEFI</b></small>
-                </div>
-                <div class="card-body">
-                <div class="row row-sm">
 
-                <table class="table table-bordered table-hover bg-white">
+            <div class="card">
+                <div class="card-content">
+                <small class="card-title">Child AEFI</small>
+                <div class="row row-sm">
+                <table class="bordered">
                 <thead>
                 <tr>
                     <th>Vaccine Doses</th>
