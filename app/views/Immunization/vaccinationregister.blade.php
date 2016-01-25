@@ -1,6 +1,5 @@
 @extends('index')
 @section('contents')
-<div>
  <div class="row">
     <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
         <div class="card-content">
@@ -21,8 +20,8 @@
                      <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Search
                      </button>
                 </div>
-            </div>
 
+            </div>
         </div>
 
     </div>
@@ -228,6 +227,5 @@
                         </table>
                     </div>
                 </div>
-</div>
 </div>
 @stop

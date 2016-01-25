@@ -86,7 +86,7 @@
                             </thead>
                             <tbody>
                             <tr>
-                                <td><a href="new.childinfo.html">6231721</a></td>
+                                <td><a href="{{ url('child/info') }}">6231721</a></td>
                                 <td>John</td>
                                 <td>S</td>
                                 <td>Doe</td>
@@ -101,7 +101,7 @@
                                 <td>Doe</td>
                             </tr>
                             <tr>
-                                <td><a href="new.childinfo.html">4D39E9FB92FED199</a></td>
+                                <td><a href="{{ url('child/info') }}">4D39E9FB92FED199</a></td>
                                 <td>Abigael</td>
                                 <td>S</td>
                                 <td>Massam</td>
@@ -117,7 +117,7 @@
                             </tr>
 
                             <tr>
-                                <td><a href="new.childinfo.html">151202083539</a></td>
+                                <td><a href="{{ url('child/info') }}">151202083539</a></td>
                                 <td>Hagga</td>
                                 <td></td>
                                 <td>Havag</td>
@@ -133,7 +133,7 @@
                             </tr>
 
                             <tr>
-                                <td><a href="new.childinfo.html">151209073106</a></td>
+                                <td><a href="{{ url('child/info') }}">151209073106</a></td>
                                 <td>John</td>
                                 <td></td>
                                 <td>Hendry</td>
@@ -149,7 +149,7 @@
                             </tr>
 
                             <tr>
-                                <td><a href="new.childinfo.html">151207030351</a></td>
+                                <td><a href="{{ url('child/info') }}">151207030351</a></td>
                                 <td>John</td>
                                 <td>S</td>
                                 <td>Doe</td>
@@ -165,7 +165,7 @@
                             </tr>
 
                             <tr>
-                                <td><a href="new.childinfo.html">151207024748</a></td>
+                                <td><a href="{{ url('child/info') }}">151207024748</a></td>
                                 <td>Reina</td>
                                 <td></td>
                                 <td>Mguda</td>
@@ -181,7 +181,7 @@
                             </tr>
 
                             <tr>
-                                <td><a  href="new.childinfo.html">151127030222</a></td>
+                                <td><a  href="{{ url('child/info') }}">151127030222</a></td>
                                 <td>John</td>
                                 <td></td>
                                 <td>Smith</td>
