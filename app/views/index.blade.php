@@ -210,7 +210,7 @@
  </footer>
 
  </div>
- 
+
  <script src="{{ asset('js/jquery-1.11.2.min.js') }}"></script>
  <script src="{{ asset('js/jquery-migrate-1.2.1.min.js') }}"></script>
  <script src="{{ asset('js/bootstrap.min.js') }}"></script>
@@ -233,6 +233,10 @@
 
      <script>
      $(function () {
+
+        $(document).ready(function(){
+            $('ul.tabs').tabs();
+        });
 
         $(document).ready(function() {
             $('select').material_select();

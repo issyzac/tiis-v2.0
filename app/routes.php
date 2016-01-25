@@ -31,6 +31,11 @@ Route::get('child/register', function()
     return View::make('Child.register');
 });
 
+Route::get('child/info', function()
+{
+    return View::make('Child.childinfo');
+});
+
 Route::get('child/duplicates', function()
 {
     return View::make('Child.duplicates');

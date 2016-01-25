@@ -21,3 +21,25 @@
         width: 90%;
     }
 }
+
+.tabs .tab a {
+    color: #1ab3ff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color .28s ease;
+}
+
+.tabs .tab a:hover {
+    color: #1ab3ff;
+}
+
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #1ab3ff;
+    will-change: left, right;
+}
