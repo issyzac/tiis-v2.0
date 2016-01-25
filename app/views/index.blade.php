@@ -191,16 +191,13 @@
  </div>
  </div>
 
-
  <div class="main-content">
  <div class="">
     @yield('contents')
  </div>
  </div>
 
-
  <footer id="footer" class="footer">
-
  <div class="footer-four">
  <div class="container">
  <div class="row">
@@ -213,8 +210,7 @@
  </footer>
 
  </div>
-
-
+ 
  <script src="{{ asset('js/jquery-1.11.2.min.js') }}"></script>
  <script src="{{ asset('js/jquery-migrate-1.2.1.min.js') }}"></script>
  <script src="{{ asset('js/bootstrap.min.js') }}"></script>

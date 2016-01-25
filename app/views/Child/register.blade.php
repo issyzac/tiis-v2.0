@@ -107,7 +107,7 @@
                       <textarea id="notes" class="materialize-textarea"></textarea>
                       <label for="notes">Notes</label>
                     </div>
-
+                    <br><br><br>
                      <div class="col s3 pull-right">
                          <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Submit
                          </button>

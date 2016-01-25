@@ -66,7 +66,7 @@
                     </div>
 
                     <div class="table-responsive">
-                        <table ui-jp="dataTable" class="table table-striped b-t b-b">
+                        <table class="table table-bodered">
                             <thead>
                             <tr>
                                 <th >System ID</th>

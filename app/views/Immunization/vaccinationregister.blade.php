@@ -1,36 +1,33 @@
 @extends('index')
 @section('contents')
+<div>
  <div class="row">
-            <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
-                <div class="card-content">
-                <span class="card-title"> Search Filters </span>
-                    <div class="row row-sm">
-                        <div class="col-sm-4">
-                            <div class="md-form-group float-label">
-                                <input class="md-input"  ng-model="child.systemId" required>
-                                <label>Name</label>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div class="md-form-group float-label">
-                                <input class="md-input"  ng-model="child.systemId" required>
-                                <label>Code</label>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-4">
-                            <div class="m-b col-sm-12">
-                                <button md-ink-ripple class="md-btn md-raised m-b btn-fw blue pull-right">Search</button>
-                            </div>
-                        </div>
-                    </div>
-
+    <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
+        <div class="card-content">
+        <span class="card-title"> Search Filters </span>
+            <div class="row row-sm">
+        
+                <div class="input-field col s4">
+                  <input  id="name" type="text" class="validate disabled">
+                  <label class="active" for="name">Name</label>
                 </div>
 
+                <div class="input-field col s4">
+                  <input  id="code" type="text" class="validate disabled">
+                  <label class="active" for="code">Code</label>
+                </div>
+
+                <div class="col s3 pull-right">
+                     <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Search
+                     </button>
+                </div>
             </div>
 
-            <div class="card" style="margin-left: 30px !important; margin-right: 30px !important;">
+        </div>
+
+    </div>
+
+    <div class="card" style="margin-left: 30px !important; margin-right: 30px !important;">
                 <div class="card-content">
                     <span class="card-title"> Health Facility List </span>
                     <div class="table-responsive">
@@ -231,5 +228,6 @@
                         </table>
                     </div>
                 </div>
-            </div>
+</div>
+</div>
 @stop
