@@ -9,7 +9,7 @@
        	
        	<div class="input-field col s4">
        		<input id="name" type="text" class="validate disabled">
-       		<label class="active" for="name"></label>
+       		<label class="active" for="name">Name</label>
        	</div>
 
        	<div class="input-field col s4">

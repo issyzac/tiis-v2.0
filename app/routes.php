@@ -16,6 +16,10 @@ Route::get('/', function()
 	return View::make('home');
 });
 
+Route::get('schedule/age', function(){
+    return View::make('Schedule.age');
+});
+
 Route::get('home', function()
 {
     return View::make('home');
@@ -43,6 +47,11 @@ Route::get('child/duplicates', function()
 
 Route::get('schedule/scheduled', function(){
      return View::make('Schedule.scheduled');
+});
+
+
+Route::get('schedule/doselist', function(){
+     return View::make('Schedule.doselist');
 });
 
 Route::get('immunization/monthlyplan', function()

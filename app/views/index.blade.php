@@ -167,8 +167,8 @@
     <li><a href="#">Vaccination Schedule</a>
         <ul class="drop-down one-column hover-fade">
             <li><a href="{{ url('schedule/scheduled') }}">Scheduled Vaccinations</a></li>
-            <li><a href="#"> Age Definitions</a></li>
-            <li><a href="#"> Doses</a></li>
+            <li><a href="{{ url('schedule/age') }}"> Age Definitions</a></li>
+            <li><a href="{{ url('schedule/doselist') }}"> Doses</a></li>
             <li><a href="#"> Non Vaccination Reasons</a></li>
         </ul>
     </li>
