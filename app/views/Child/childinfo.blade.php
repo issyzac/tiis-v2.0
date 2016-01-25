@@ -1,12 +1,12 @@
 @extends('index')
 @section('contents')
 
-<div class="box-inner padding">
-
+<div class="row">
 
 <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
     
     <div class="card-content">
+
         <ul class="tabs">
             <li class="tab active">
                 <a class="" href="#sectionA">Basic Information</a>
@@ -15,16 +15,17 @@
                 <a href="#sectionB">Weight</a>
             </li>
             <li class="tab">
-                <a href="#sectionC">Aefi</a>
+                <a href="#aefi">Aefi</a>
             </li>
             <li class="tab">
-                <a href="#sectionD">Immunization Card</a>
+                <a href="#immcard">Immunization Card</a>
             </li>
         </ul>
 
         <div id="sectionA" class="">
 
             <div class="card" style="">
+                
                 <div class="card-content">
                 <small class="card-title">Child Summary Information</small>
                     <div class="row row-sm">
@@ -199,14 +200,17 @@
                              <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Save
                              </button>
                         </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div id="sectionC" class="">
+        <div id="aefi" class="">
 
             <div class="card">
                 <div class="card-content">
                 <small class="card-title">Child AEFI</small>
+
                 <div class="row row-sm">
                 <table class="bordered">
                 <thead>
@@ -239,30 +243,30 @@
             <br>
 
             <div class="card">
-                <div class="card-body">
-                    <div class="row row-sm">
-                        <div class="col-sm-4">
-                            <input class="form-control col-sm-2" type="checkbox" checked/> <span class="col-sm-10"> Child had AEFI on this encounter </span>
+                <div class="card-content">
+                <span class="card-title"></span>
+                    <div class="row">
+
+                        <div class="col s4">
+                            <input class="col s2" type="checkbox" checked/> <span class="col-sm-10"> Child had AEFI on this encounter </span>
                         </div>
-                        <div class="col-sm-4">
+
+                        <div class="col s4">
                             <div class="md-form-group md-input-has-value md-block flex-gt-sm md-input-has-value">
                                 <input class="md-input" ng-model="user.lastName" value="12/1/2016" required>
                                 <label>Date</label>
                             </div>
                         </div>
-                        <div class="col-sm-4">
-                            <div class="md-form-group md-input-has-value md-block flex-gt-sm md-input-has-value">
-                                <input class="md-input" ng-model="user.lastName" required>
-                                <label>Notes</label>
-                            </div>
+
+                        <div class="input-field col s4">
+                            <input type="text" id="weight">
+                            <label for="weight">Notes</label>
                         </div>
 
-                        <div class="col-sm-3 pull-right">
-                            <label></label>
-                            <br>
-                            <div class="m-b pull-right">
-                                <button md-ink-ripple class="md-btn md-raised m-b btn-fw blue">Save</button>
-                            </div>
+
+                        <div class="col s4 pull-right">
+                             <button class="btn waves-effect waves-light pull-right" type="submit" name="action">Save
+                             </button>
                         </div>
 
                     </div>
@@ -342,9 +346,7 @@
                 </div>
             </div>
         </div>
-
-<!-- #########################################################  Immunizaiton Card Section      ################################################# -->
-        <div id="sectionD" class="">
+       <div id="immcard" class="">
             <div class="card">
                 <div class="card-heading">
                     <small><b> Child Immunization Card </b></small>
@@ -494,13 +496,10 @@
                 </div>
             </div>
         </div>
-<!-- #########################################################  Immunizaiton Card Section Ends ################################################# -->
         </div>
-
-    </div>
-
+        </div>
 </div>
-
+</div>
 </div>
 
 @stop
