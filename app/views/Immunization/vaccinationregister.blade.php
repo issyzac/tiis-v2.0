@@ -1,6 +1,7 @@
 @extends('index')
 @section('contents')
  <div class="row">
+    
     <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
         <div class="card-content">
         <span class="card-title"> Search Filters </span>
@@ -23,7 +24,6 @@
 
             </div>
         </div>
-
     </div>
 
     <div class="card" style="margin-left: 30px !important; margin-right: 30px !important;">
@@ -227,5 +227,7 @@
                         </table>
                     </div>
                 </div>
+    </div>
+
 </div>
 @stop
