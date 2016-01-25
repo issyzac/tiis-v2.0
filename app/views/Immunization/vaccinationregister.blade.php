@@ -27,7 +27,6 @@
 
     </div>
 
-    <div class="card" style="margin-left: 30px !important; margin-right: 30px !important;">
                 <div class="card-content">
                     <span class="card-title"> Health Facility List </span>
                     <div class="table-responsive">

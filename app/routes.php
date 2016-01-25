@@ -36,6 +36,10 @@ Route::get('child/duplicates', function()
     return View::make('Child.duplicates');
 });
 
+Route::get('schedule/scheduled', function(){
+     return View::make('Schedule.scheduled');
+});
+
 Route::get('immunization/monthlyplan', function()
 {
     return View::make('immunization.monthlyplan');
