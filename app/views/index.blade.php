@@ -113,14 +113,14 @@
       <ul class="drop-down one-column hover-fade">
            <li> <a href="{{ url('immunization/monthlyplan') }}">Monthly Plan</a> </li>
            <li> <a href="{{ url('immunization/vaccinationregister') }}">Vaccination Register</a> </li>
-           <li> <a href="#">Population</a> </li>
+           <li> <a href="{{ url('immunization/population') }}">Population</a> </li>
        </ul>
   </li>
 
   <li> <a href="">Stock Issue</a>
        <ul class="drop-down one-column hover-fade">
             <li> <a href="#">Stock Issue List</a> </li>
-            <li> <a href="#">New Stock Issue</a> </li>
+            <li> <a href="{{ url('stock/newstock') }}">New Stock Issue</a> </li>
         </ul>
    </li>
 
@@ -169,7 +169,7 @@
             <li><a href="{{ url('schedule/scheduled') }}">Scheduled Vaccinations</a></li>
             <li><a href="{{ url('schedule/age') }}"> Age Definitions</a></li>
             <li><a href="{{ url('schedule/doselist') }}"> Doses</a></li>
-            <li><a href="#"> Non Vaccination Reasons</a></li>
+            <li><a href="{{ url('schedule/nonvaccination') }}"> Non Vaccination Reasons</a></li>
         </ul>
     </li>
     <li><a href="#">Configuration</a>

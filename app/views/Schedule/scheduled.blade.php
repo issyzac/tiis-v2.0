@@ -53,9 +53,7 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                              
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
@@ -72,12 +70,11 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
+
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                              
 
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
@@ -91,13 +88,11 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
+                              
+                                
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
-
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
                                 </td>
@@ -111,9 +106,7 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                              
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
@@ -130,12 +123,11 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
+                                 
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                           
 
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
@@ -149,9 +141,8 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                               
+                                
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>
@@ -168,9 +159,8 @@
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                                <td>
-                                    <input type="checkbox"  disabled />
-                                </td>
+                         
+                                
                                 <td>
                                     <input type="checkbox"  disabled />
                                 </td>

@@ -49,6 +49,9 @@ Route::get('schedule/scheduled', function(){
      return View::make('Schedule.scheduled');
 });
 
+Route::get('schedule/nonvaccination', function(){
+     return View::make('Schedule.nonvaccination');
+});
 
 Route::get('schedule/doselist', function(){
      return View::make('Schedule.doselist');
@@ -59,8 +62,17 @@ Route::get('immunization/monthlyplan', function()
     return View::make('immunization.monthlyplan');
 });
 
+Route::get('stock/newstock', function(){
+   return View::make('Stock.newstock');
+});
+
 Route::get('immunization/vaccinationregister', function()
 {
     return View::make('immunization.vaccinationregister');
+});
+
+Route::get('immunization/population', function()
+{
+    return View::make('immunization.population');
 });
 

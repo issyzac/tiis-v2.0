@@ -25,6 +25,7 @@
        		       <input id="days" type="text" class="validate disabled">
        		       <label class="active" for="name">Fullname</label>
              	</div>
+             	<br />
              	 <div class="col s3 pull-center">
                      <button class="btn waves-effect waves-light pull-center" type="submit" name="action">Search
                      </button>
@@ -48,7 +49,7 @@
          	<thead>
           <tr>
 
-          
+
          		                <th data-field="name" style="width:15%">FullName</th>
                                 <th data-field="definition" style="width:15%">Age Definition</th>
                                 <th data-field="vaccination" style="width:25%">Schedule Vaccination</th>

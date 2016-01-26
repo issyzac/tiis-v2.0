@@ -27,7 +27,6 @@
         </div>
         
     <div class="card-content">
-        <span class="card-title"> Health Facility List </span>
         <div class="table-responsive">
             <table  class="table table-bodered">
                 <thead>

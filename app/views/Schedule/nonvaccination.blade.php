@@ -1,49 +1,52 @@
 @extends('index')
 @section('contents')
 <div>
-  <div class="row">
-     <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
-     	<div class="card-content">
-     		 <span class="card-title">Age Definition</span>
+	<div class="row">
+       <div class="card" style="margin-left: 30px !important; margin-right: 30px !important">
+         <div class="card-content">
+          <span class="card-title">Non Vaccination Reason</span>
              <div class="row row-sm">
+             
+                
+	            <div class="input-field col s2">
+       		       <input id="name" type="text" class="validate disabled">
+       		       <label class="active" for="name">Name</label>
+             	</div>
+              <div class="input-field col s2">
+                 <input id="code" type="text" class="validate disabled">
+                 <label class="active" for="name">Code</label>
+              </div>
 
-             <div class="input-field col s3">
-       		<input id="name" type="text" class="validate disabled">
-       		<label class="active" for="name">Name</label>
-          	</div>
-
-          	<div class="input-field col s3">
-       		<input id="days" type="text" class="validate disabled">
-       		<label class="active" for="name">Days</label>
-       	</div>
-           
-              	<div class="input-field col s3">
-       		<input id="notes" type="text" class="validate disabled">
-       		<label class="active" for="name">Notes</label>
-       	</div>
-
-       	  <br/>
-         <form action="#">
-               <label class="active" for="name">Is Active</label>
-       	   	<div >
-       	     <input class="grp1" type="radio" name="active" id="r1" />
+              
+              <br />
+                 <div>
+                
+               <label class="active" for="name">Keep Child Due</label>
+            <div >
+             <input class="grp1" type="radio" name="active" id="r1" />
              <label class="radio-label">Yes</label>
              <input class="grp1" type="radio" name="notactive" id="r2"  />
              <label class="radio-label">No</label>
-       	</div>
-      
-        </form>
+             </div>
+  
+        </div>
 
-                <div class="col s3 pull-right">
-                     <button class="btn waves-effect waves-light pull-right" type="submit" name="action">SAVE
+
+
+      
+        
+             	 
+                 <div class="col s3 pull-right">
+                     <button class="btn waves-effect waves-light pull-right" type="submit" name="action">ADD NEW
                      </button>
                 </div>
-     	</div>
-     </div>
-  	
-  </div>
-</div>
 
+             </div>
+         		
+         </div>
+       </div>
+	</div>
+</div>
 <div class="card" style="margin-left: 30px !important; margin-right: 30px !important;">
  <div class="card-content">
       	<span class="card-title">Scheduled Vaccination List</span>
@@ -51,110 +54,105 @@
          	<table class="table table-bodered">
          	<thead>
           <tr>
+
+          
          		                <th data-field="name" style="width:15%">Name</th>
-                                <th data-field="days" style="width:15%">Days</th>
+                                <th data-field="code" style="width:15%">Code</th>
+                                <th data-field="child" style="width:25%">Keep Child Due</th>
                                 <th data-field="notes " style="width:25%">Notes</th>
                                 <th data-field="isactive" style="width:25%">Is Active</th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <tr>
-                                <td>  At birth</td>
-                                <td>  0</td>
-                          
+                               <td>  Mtoto ana aleji ya dawa</td>
+            
+                                <td> 2</td>
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                               
-                                <td>
+                                <td>Child has an allergies</td>
+                              <td>
+                                    <input type="checkbox" checked disabled />
+                                </td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
                                 </td>
                             </tr>
 
                                 <tr>
-                                <td>  2 Weeks</td>
-                                <td>  14</td>
+                                <td>  Kukosekana chanjo</td>
+            
+                                <td> 4</td>
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                             
+                                <td>Stock out</td>
+                              <td>
+                                    <input type="checkbox" checked disabled />
+                                </td>
 
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
                                 </td>
                             </tr>
                                  <tr>
-                                <td>  1 Month</td>
-                                <td>  30</td>
-                                
+                                <td>  Mtoto kachelewa</td>
+            
+                                <td> 0</td>
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                               
-                                <td>
+                                <td>Child came late</td>
+                              <td>
+                                    <input type="checkbox" checked disabled />
+                                </td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
                                 </td>
                             </tr>
                         
                                 <tr>
-                                <td>  6 weeks</td>
-                                <td>  42</td>
-                                
+                              <td>  Mtoto ni mgonjwa</td>
+            
+                                <td> 5</td>
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                               
+                                
+                                <td>Child is sick</td>
+                              <td>
+                                    <input type="checkbox" checked disabled />
+                                </td>
 
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
                                 </td>
                             </tr>
                                    <tr>
-                                <td>  10 weeks</td>
-                                <td>  70</td>
-                               
+                                 <td>  Mzazi amekataa</td>
+            
+                                <td> 1</td>
                                 <td>
                                     <input type="checkbox" checked disabled />
                                 </td>
-                               
+                                  <td>Mother refuses vaccine</td>
+                              <td>
+                                    <input type="checkbox" checked disabled />
+                                </td>
 
                                 <td>
                                     <a href="#"> <i class="fa fa-list"></i></a>
-                                </td>
-                            </tr>
-                              <tr>
-                                <td>  9 Months</td>
-                                <td>  274</td>
-                             
-                                <td>
-                                    <input type="checkbox" checked disabled />
-                                </td>
-                                
-                                <td>
-                                    <a href="#"> <i class="fa fa-list"></i></a>
-                                </td>
-                            </tr>
-                               <tr>
-                                <td>  18 Months</td>
-                                <td>  547</td>
-                                
-                                <td>
-                                    <input type="checkbox" checked disabled />
                                 </td>
                            
-                                <td>
-                                    <a href="#"> <i class="fa fa-list"></i></a>
-                                </td>
-                            </tr>
-                   
-
-                 
                                 </tbody>
 
                          </div>
 
         
              </table>
+               <div class="col s3 pull-right">
+                     <button class="btn waves-effect waves-light green-right" type="submit" name="action">EXCEL
+                     </button>
+                </div>
             
                     </div>
 
