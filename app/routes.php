@@ -65,6 +65,9 @@ Route::get('immunization/monthlyplan', function()
 Route::get('stock/newstock', function(){
    return View::make('Stock.newstock');
 });
+Route::get('stock/newstockissued', function(){
+   return View::make('Stock.newstockissued');
+});
 
 Route::get('immunization/vaccinationregister', function()
 {

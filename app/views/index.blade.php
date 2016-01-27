@@ -119,8 +119,9 @@
 
   <li> <a href="">Stock Issue</a>
        <ul class="drop-down one-column hover-fade">
-            <li> <a href="#">Stock Issue List</a> </li>
+            <li> <a href="{{ url('stock/newstockissued') }}">Stock Issue List</a> </li>
             <li> <a href="{{ url('stock/newstock') }}">New Stock Issue</a> </li>
+<!--<li> <a href="{{ url('stock/newstockdetails') }}">New Stock Issue</a> </li> -->
         </ul>
    </li>
 
