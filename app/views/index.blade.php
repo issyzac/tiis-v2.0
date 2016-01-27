@@ -127,7 +127,7 @@
 
    <li> <a href="">Stock</a>
         <ul class="drop-down one-column hover-fade">
-             <li> <a href="#">Current Stock</a> </li>
+             <li> <a href="{{ url('stocks/newcurrentstoke') }}">Current Stock</a> </li>
              <li> <a href="#">Stock Count</a> </li>
              <li> <a href="#">Make an Adjustment</a> </li>
              <li> <a href="#">Item Lots</a> </li>

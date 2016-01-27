@@ -16,6 +16,12 @@ Route::get('/', function()
 	return View::make('home');
 });
 
+Route::get('stocks/newcurrentstoke', function(){
+    return View::make('Stocks.newcurrentstoke');
+});
+
+
+
 Route::get('schedule/age', function(){
     return View::make('Schedule.age');
 });
